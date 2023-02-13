@@ -75,7 +75,7 @@ i{
   border-radius: 20px;
   background-color: #379AD6;
   position: absolute;
-  top: 5px;
+  top: 4px;
   left: 3px;
   transform: translate(0px);
   transition: transform 0.2s linear;
@@ -280,7 +280,7 @@ nav > ul> li > a:hover{
   border-radius: 3px;
   text-decoration: none;
   color: #5f8ca8;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .contatos ul> li > a:hover{
   color: white;

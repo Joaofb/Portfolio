@@ -253,14 +253,18 @@ nav > ul> li > a:hover{
   padding: 2px;
 }
 .contatos{
-  width: 499px;
   margin: auto;
   text-align: center;
   margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .contatos ul{
   text-align: center;
   padding: 5px;
+  
 }
 .contatos li> img{ 
   background-color: #25648b;

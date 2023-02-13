@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="mediaquery.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onresize="tamanhoTela()">
+  <header>
+    <i onclick="openMenu()" class="menu material-symbols-outlined" >menu</i>
+    <div class="bot">
+      <input type="checkbox" id="chk" class="checkbox">
+      <label class="label" for="chk">
+        <span class="night">off</span>
+        <span class="sun">on</span>
+        <div class="button"></div>
+      </label>
+    </div>
+  </header>
+  <!--conteúdo-->
+  <nav id="nav">
+    <ul id="link">
+      <li>
+        <a href="#habilidade">Skills</a>
+      </li>
+      <li>
+        <a href="#sobre">Sobre</a>
+      </li>
+      <li>
+        <a href="#contato">Contato</a>
+      </li>
+      <li class="download">
+        <a href="#" target="_blank" rel="noopener noreferrer">Download CV</a>
+      </li>
+    </ul>
+  </nav >
+  <main>
+    <section id="container">
+      <section class="principal">
+        <h1>João Botelho</h1>
+        <img src="img/new.jpg" alt="">
+      </section>
+
+      <h2>Skills</h2>
+
+      <section id="habilidade">
+
+        <article class="card">
+          <div class="mini-card">
+            <img class="logo" src="elements-img/html.png" alt="">
+            <div class="progress-bar">
+              <div class="loading-html"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="mini-card">
+            <img class="logo" src="elements-img/css3.png" alt="">
+            <div class="progress-bar">
+              <div class="loading-css"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="mini-card">
+            <img class="logo" src="elements-img/Js.png" alt="js">
+            <div class="progress-bar">
+              <div class="loading-js"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="mini-card">
+            <img src="elements-img/github.png" alt="" class="logo">
+            <div class="progress-bar">
+              <div class="loading-git"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="sobre">
+        <h2>sobre</h2>
+        <p>Olá, meu nome é <strong>João Botelho</strong> e estou cursando o superior na área de Analista em desenvolvimento de sistema atualmente tenho na faculdade Estácio <strong>23 anos</strong> e estou buscando uma oportunidade na area.</p>
+      </section>
+      
+      <section>
+
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </main>
+  <!--Pé-->
+  <footer id="contato" class="footer">
+    <p>&reg;Site desenvolvido por <strong>João Botelho</strong></p>
+    <h4>contato</h4>
+    <div class="contatos">
+      <ul>
+        <li>
+          <img src="elements-img/github.png" alt="github">
+        <a href="https://github.com/Joaofb" target="_blank" rel="noreferrer noopener">github</a>
+        </li>
+        <li><img src="elements-img/linkedIn.webp" alt=""><a href="https://www.linkedin.com/in/jo%C3%A3o-botelho-5186a91a6/" rel="noopener noreferrer" target="_blank">linked</a></li>
+        <li>
+          <img src="elements-img/facebook.png" alt="">
+          <a href="https://www.facebook.com/joao.botelho.716195" rel="noopener noreferrer" target="_blank">facebook</a>
+        </li>
+        <li>
+          <img src="elements-img/instagram-new--v3.png" alt="">
+          <a href="https://www.instagram.com/joao_botelho.ofc/" target="_blank" rel="noopener noreferrer">instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  article.card{
+    width: 150px;
+    margin: 0;
+  }
+  .mini-card{
+    width: 100px;
+    float: left;
+  }
+  .progress-bar{
+    width: 100px;
+  }
+  .progress-html{
+    width: 0px;
+  }
+  #sobre>p{
+    letter-spacing: 1px;
+  }
+  .menu{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 520px) {
+  header{
+    box-shadow: 1px 5px 9px black;
+  }
+  article.card{
+    width: 160;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu{
+    display: none;
+  }
+  .bot{
+    position: relative;
+    right: 2.5%;
+    top: 6px;
+  }
+  nav{
+    background: transparent;
+  }
+  nav>ul>li{
+    float: left;
+    position: relative;
+    bottom: 50px;
+    padding: 5px;
+  }
+}

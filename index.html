@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css_icons/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudouTamanho()">
+  <header class="cabeca">
+    <h1>João F. Botelho</h1>
+    <div class="container-nav">
+      <div id="menu" onclick="clickMenu()">
+        <i class="material-symbols-outlined">menu</i>
+      </div>
+      <nav id="menuitens">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="conteudo_primary">
+      <p >Olá, meu nom é <span class="destaque">João F. Botelho</span> sou estudante de analise e desenvolvimento de sistema.</p>
+      <button>
+        Projetos
+      </button>
+      <!-- <a class="download" href="/arquivo/Currículo.pdf" download>Download CV</a> -->
+    </section>
+    <section class="conteudo_secundary">
+      <h2>Sobre</h2>
+      <p>Estou cursando o ensino superior na área de<span class="destaque"> Analise e Desenvolvimento de Sistemas na universidade Estácio</span>, morador de <span>Brasília-DF</span> e ensino médio concluído em <span>Santa-Maria-DF</span></p>
+    </section>
+
+    <section class="conteudo_third">
+      <h2>Projetos</h2>
+      
+      <div class="container_img">
+        <div class="img">
+          <img src="/projetos/Captura de tela 2023-05-09 190723.png" alt="Cordel Moderno">
+        </div>
+        <div class="img">
+          <img src="/projetos/Captura de tela 2023-05-09 190819.png" alt="Android page">
+        </div>
+        <div class="img">
+          <img src="/projetos/Captura de tela 2023-05-09 191002.png" alt="redes">
+        </div>
+      </div>
+      <details>
+        Projeto feito nas aulas ministradas pelo professor Gustavo Guanabara, utilizando <span class="destaque">HTML e CSS </span>para consolidar aulas de paralax, frame, video e media query Todos no github.
+      </details>
+    </section>
+
+    
+    
+    <section class="conteudo_four">
+      <h2>Habilidade</h2>
+      <h3>Nível básico</h3>
+      <div class="container_habilidade">
+        <div class="categoria web">
+          <img src="/img/logos/logos/icons8-webpack-512.png" alt="Webpack">
+          <p>Webpack</p>
+        </div>
+        <div class="categoria gulp">
+          <img src="/img/logos/logos/icons8-gulp-256.png" alt="Gulp">
+          <p>Gulp</p>
+        </div>
+        <div class="categoria jquary">
+          <img src="/img/logos/logos/icons8-jquery-50.png" alt="Jquary">
+          <ul>
+            <li>Ajax</li>
+            <li>Jquary</li>
+          </ul>
+        </div>
+        <div class="categoria sass">
+          <img src="/img/logos/logos/icons8-sass-192.png" alt="Sass">
+          <p>Sass</p>
+        </div>
+        
+      </div>
+      <h3>Nível intermediário</h3>
+      <div class="container_habilidade">
+        <div class="categoria js">
+          <img src="/img/logos/logos/icons8-javascript-480.png" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="categoria css">
+          <img src="/img/logos/logos/icons8-css-240.png" alt="css">
+          <p>CSS</p>
+        </div>
+        <div class="categoria html">
+          <img src="/img/logos/logos/icons8-html-480.png" alt="html">
+          <p>HTML<p>
+        </div>
+        <div class="categoria bootstrap">
+          <img src="/img/logos/logos/icons8-bootstrap-480.png" alt="bootstrap">
+          <p>Bootstrap</p>
+        </div>
+        
+      </div>
+    </section>
+    <article class="social">
+      <ul>
+        <li>
+          <a href="https://github.com/Joaofb" target="_blank" rel="noopener" >
+            <img src="/img/logos/logos/670020.png" alt="github">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-botelho-5186a91a6/" target="_blank" rel="noopener"><img src="/img/logos/logos/lin.png" alt="Linkendin"></a>
+        </li>
+      </ul>
+    </article>
+  </main>
+  <footer>
+    <p>Desenvolvido por João Botelho</p>
+  </footer>
+  <script src="/javascript/menu.js"></script>
+</body>
+</html>

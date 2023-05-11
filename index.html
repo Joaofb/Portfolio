@@ -12,17 +12,17 @@
 </head>
 <body onresize="mudouTamanho()">
   <header class="cabeca">
-    <h1>João F. Botelho</h1>
+    <h1 id="inicio">João F. Botelho</h1>
     <div class="container-nav">
       <div id="menu" onclick="clickMenu()">
         <i class="material-symbols-outlined">menu</i>
       </div>
       <nav id="menuitens">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Projetos</a></li>
-          <li><a href="">Skills</a></li>
+          <li><a href="#inicio">Home</a></li>
+          <li><a href="#sobre">About</a></li>
+          <li><a href="#projetos">Projects</a></li>
+          <li><a href="#habilidades">Skills</a></li>
         </ul>
       </nav>
     </div>
@@ -30,18 +30,18 @@
   <main>
     <section class="conteudo_primary">
       <p >Olá, meu nom é <span class="destaque">João F. Botelho</span> sou estudante de analise e desenvolvimento de sistema.</p>
-      <button>
+      <button id="#projetos">
         Projetos
       </button>
       <!-- <a class="download" href="/arquivo/Currículo.pdf" download>Download CV</a> -->
     </section>
     <section class="conteudo_secundary">
-      <h2>Sobre</h2>
+      <h2 id="sobre">Sobre</h2>
       <p>Estou cursando o ensino superior na área de<span class="destaque"> Analise e Desenvolvimento de Sistemas na universidade Estácio</span>, morador de <span>Brasília-DF</span> e ensino médio concluído em <span>Santa-Maria-DF</span></p>
     </section>
 
     <section class="conteudo_third">
-      <h2>Projetos</h2>
+      <h2 id="porjetos">Projetos</h2>
       
       <div class="container_img">
         <div class="img">
@@ -62,7 +62,7 @@
     
     
     <section class="conteudo_four">
-      <h2>Habilidade</h2>
+      <h2 id="habiliade">Habilidade</h2>
       <h3>Nível básico</h3>
       <div class="container_habilidade">
         <div class="categoria web">
@@ -121,7 +121,7 @@
     </article>
   </main>
   <footer>
-    <p>Desenvolvido por João Botelho</p>
+    <p><a href="#inicio">Desenvolvido por João Botelho</a></p>
   </footer>
   <script src="/javascript/menu.js"></script>
 </body>

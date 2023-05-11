@@ -18,5 +18,3 @@ function mudouTamanho(){
     menu.style.display ='block'
   }
 }
-
-

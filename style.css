@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root{
   --color-body: #060007;
   --color-font: #7E49F2;
@@ -18,7 +19,8 @@
 body, html{
   background-color: var(--color-body);
   color: var(--color-font);
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Montserrat', sans-serif;
+
   overflow-x: hidden;
 }
 /* cabeça/header */

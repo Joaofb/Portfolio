@@ -180,9 +180,27 @@ main{
   padding: 2px;
   margin: 1px;
 }
+.content-five{
+  margin-top: 20px;
+  text-align: center;
+}
+.subject{
+  text-align: start;
+  width: 330px;
+  margin: 0 auto;
+  background-color: var(--color-font);
+  padding: 5px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.subject li{
+  margin-left: 5px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
 /* conteudo de projetos */
 .container_img{
-  width: 300px;
+  width: 250px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -198,7 +216,7 @@ main{
   text-align: center;
 }
 .conteudo_third img{
-  width: 300px;
+  width: 250px;
   margin: 10px;
   border: 3px solid var(--color-bootstrap);
 }
